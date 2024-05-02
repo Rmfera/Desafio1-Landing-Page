@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    font-family: "inter";
+}
+
+#tipo-de-servico {
+    height: 475px;
+    background-color: #303030;
+
+}
+
+#titulo-tipo-servico {
+
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 206px 0px 0px 62px;
+}
+
+#paragrafo-tipo-servico {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 32px 0px 0px 62px;
+
+}
+
+#capacidade-tecnica {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.numeros {
+    margin-top: 54px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+#experiencia-e-historia {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 10px;
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+}
+
+#arquitetos {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#casa {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#formulario-de-servicos {
+    background-color: #303030;
+    text-align: center;
+    height: 638px;
+}
+
+#titulo-formulario {
+    font-size: 32px;
+    padding: 60px;
+    color: #FFFFFF;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    background: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    background: #C07212;
+    border: 0px;
+    border-radius: 5px;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+}
